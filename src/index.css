@@ -1,0 +1,205 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #DEFFFA;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.header {
+  padding: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: #ff00c1;
+}
+
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a {
+  color: #712275;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: 	#9600ff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #E68E36;
+}
+
+/* selected link */
+a:active {
+  color: #94167F;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 25px;
+  padding: 15px;
+  color: #ff00c1;
+}
+.col-md-2 {
+padding: 15px;
+}
+
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.hero {
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-body div ul {
+list-style-type: none;
+font-size: 20px;
+float: center;
+
+}
+
+.card-body div ul li {
+display: inline-block;
+margin-left: 25px;
+}
+
+
+.card-body img {
+display: inline-block;
+margin-right: 25px;
+margin-left: 25px;
+}
+
+
+/* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+
+/* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
+.card-column {
+  flex: 1 0 100%;
+  padding: 1.5rem;
+  /* when the screen resizes, make it so our columns don't jump in size */
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+}
+
+.card-body {
+  /* display: flex; */
+  min-height: 1px;
+  padding: 1.25rem;
+  
+}
+
+.code-card {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100%;
+  padding: 2rem;
+
+
+  /* outline is like border, but on the outside of the box instead of inside */
+  outline: 2px dashed var(--gin);
+  outline-offset: -2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.code-card .card-header {
+  /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+  position: relative;
+  margin: -1rem 0 1.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--outer-space);
+  color: var(--blue);
+  border: 2px solid var(--gin);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+/* set an outer and inner drop shadow on the card to create a glowing effect on hover */
+.code-card:hover,
+.code-card:hover .card-header {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+
+/* each card's code block grows to the height of the largest code block on the page, making each card even in height */
+/* .code-card .code-block {
+  flex-grow: 1;
+}
+ */
+/* on <pre> click, select all contents so the code is highlighted */
+/* .code-card pre:active {
+  user-select: all;
+} */
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #000000;
+}
+
+.footer h2 {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
