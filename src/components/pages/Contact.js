@@ -16,15 +16,6 @@ function Contact() {
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
-
-    // Based on the input type, we set the state of either email, username, and password
-    if (inputType === 'email') {
-      setEmail(inputValue);
-    } else if (inputType === 'userName') {
-      setUserName(inputValue);
-    } else {
-      setPassword(inputValue);
-    }
   };
 
   const handleFormSubmit = (e) => {
@@ -44,7 +35,7 @@ function Contact() {
       );
       return;
     }
-    alert(`Hello ${userName}`);
+  
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
