@@ -4,14 +4,20 @@ import proj1 from "../../images/Proj1.jpg"
 import proj2 from "../../images/Proj2.jpg"
 
 export default function Portfolio() {
-  const projects = [
+  const project = [
     {
       image: proj1, 
       liveLink: "https://mapono.github.io/Project_1/",
+      text: "Find Pixels & Pints here:",
+      gitHubLink: "https://github.com/Mapono/Project_1",
+      deployLink: "https://mapono.github.io/Project_1/",
     },
     {
       image: proj2, 
       liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      text: "Find HomeInventory_DB here:",
+      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
+      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
     }
   ]
   return (
@@ -22,7 +28,7 @@ export default function Portfolio() {
   </div>
   <div class="col-md-10">
     <div class="card-body">
-      {projects.map(project => (
+      {project.map(project => (
         <Project project = {project} />
       ))}
       

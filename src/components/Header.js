@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Footer() {
+export default function Header() {
     return (
         <div>
-            <h2>Elizabeth Tozlian Ireland</h2>
-            <h4>Writer | Front End Coder | Content Wizard | Marketing Maven</h4>
+            <h2>⚡️ Elizabeth Tozlian Ireland ⚡️</h2>
+            <h4>Writer ✨ Front End Coder ✨ Content Wizard ✨ Marketing Maven</h4>
       </div>
     )
 }
