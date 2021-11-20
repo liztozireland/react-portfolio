@@ -21,7 +21,11 @@
   color: #ff00c1;
 }
 
-
+h3{
+  font-size:30px;
+  color: #791e94;
+  padding: 15px;
+}
 .header div {
   padding-top: 15px;
   margin-right: 20px;

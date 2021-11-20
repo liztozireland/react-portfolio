@@ -45,7 +45,7 @@ function Contact() {
 
   return (
     <div>
-      <p>Hello {userName}</p>
+      <h3>Want to ask a question? Fill out the form below!</h3>
       <form className="form">
         <input
           value={email}

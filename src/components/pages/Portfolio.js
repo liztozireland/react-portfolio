@@ -40,16 +40,14 @@ export default function Portfolio() {
     {
       image: DayPlan, 
       liveLink: "https://powerful-dawn-85424.herokuapp.com/",
-      text: "Find New Wave Weather Dashboard here:",
+      text: "Find a Helpful Day Planner here:",
       gitHubLink: "https://github.com/ljbrewer/HomeInventory",
       deployLink: "https://powerful-dawn-85424.herokuapp.com/",
     },
     {
       image: RoadTrip, 
       liveLink: "https://powerful-dawn-85424.herokuapp.com/",
-      text: "Find New Wave Weather Dashboard here:",
-      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
-      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+      text: "Coming Soon: Wheel Good Time: a Road Trip Planner",
     }
   ]
   return (
