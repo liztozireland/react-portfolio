@@ -1,21 +1,53 @@
 import React from 'react';
 import Project from "../Project"
-import proj1 from "../../images/Proj1.jpg"
-import proj2 from "../../images/Proj2.jpg"
+import Pints from "../../images/Pints.png"
+import HomeDB from "../../images/HomeDB.png"
+import JSQuiz from "../../images/JSQuiz.png"
+import WeatherDB from "../../images/WeatherDB.png"
+import DayPlan from "../../images/DayPlan.png"
+import RoadTrip from "../../images/RoadTrip.png"
 
 export default function Portfolio() {
   const project = [
     {
-      image: proj1, 
+      image: Pints, 
       liveLink: "https://mapono.github.io/Project_1/",
       text: "Find Pixels & Pints here:",
       gitHubLink: "https://github.com/Mapono/Project_1",
       deployLink: "https://mapono.github.io/Project_1/",
     },
     {
-      image: proj2, 
+      image: HomeDB, 
       liveLink: "https://powerful-dawn-85424.herokuapp.com/",
       text: "Find HomeInventory_DB here:",
+      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
+      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+    },
+    {
+      image: JSQuiz, 
+      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      text: "Find Super Rad Javascript Quiz here:",
+      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
+      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+    },
+    {
+      image: WeatherDB, 
+      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      text: "Find New Wave Weather Dashboard here:",
+      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
+      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+    },
+    {
+      image: DayPlan, 
+      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      text: "Find New Wave Weather Dashboard here:",
+      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
+      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+    },
+    {
+      image: RoadTrip, 
+      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      text: "Find New Wave Weather Dashboard here:",
       gitHubLink: "https://github.com/ljbrewer/HomeInventory",
       deployLink: "https://powerful-dawn-85424.herokuapp.com/",
     }
