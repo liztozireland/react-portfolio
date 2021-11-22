@@ -25,28 +25,28 @@ export default function Portfolio() {
     },
     {
       image: JSQuiz, 
-      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      liveLink: "https://liztozireland.github.io/Javascript-Quiz/",
       text: "Find Super Rad Javascript Quiz here:",
-      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
-      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+      gitHubLink: "https://github.com/liztozireland/Javascript-Quiz",
+      deployLink: "https://liztozireland.github.io/Javascript-Quiz/",
     },
     {
       image: WeatherDB, 
-      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      liveLink: "https://liztozireland.github.io/WeatherDashboard/",
       text: "Find New Wave Weather Dashboard here:",
-      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
-      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+      gitHubLink: "https://github.com/liztozireland/WeatherDashboard",
+      deployLink: "https://liztozireland.github.io/WeatherDashboard/",
     },
     {
       image: DayPlan, 
-      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      liveLink: "https://liztozireland.github.io/WorkPlanner/",
       text: "Find a Helpful Day Planner here:",
-      gitHubLink: "https://github.com/ljbrewer/HomeInventory",
-      deployLink: "https://powerful-dawn-85424.herokuapp.com/",
+      gitHubLink: "https://github.com/liztozireland/WorkPlanner",
+      deployLink: "https://liztozireland.github.io/WorkPlanner/",
     },
     {
       image: RoadTrip, 
-      liveLink: "https://powerful-dawn-85424.herokuapp.com/",
+      liveLink: "https://github.com/ljbrewer/AWheelGoodTime",
       text: "Coming Soon: Wheel Good Time: a Road Trip Planner",
     }
   ]

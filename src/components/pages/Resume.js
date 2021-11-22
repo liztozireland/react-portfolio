@@ -1,4 +1,9 @@
 import React from 'react';
+import IrelandElizabethResume2020 from '../../images/IrelandElizabethResume2020.pdf';
+
+const resume = {
+  link: 
+}
 
 export default function Resume() {
   return (
@@ -61,7 +66,7 @@ online content across a variety of social media channels</li>
 </ul>
 <h4>🦝🦝🦝</h4>
       <h4>Kualoa Ranch</h4>
-      <p><strong>Sales and Marketing Assistant</strong></p>
+      <p><strong>Sales and Marketing Assistant </strong></p>
       <p><strong>October 2013 to May 2014</strong></p>
       <ul>
         <li>Responsible for assisting sales manager and sales representative with day to day operations</li>
