@@ -28,7 +28,7 @@ export default function Footer() {
                   </li>
                     <li>
                         <p style={{textAlign:"center"}}>👩‍💻</p>
-                        <a href="https://www.linkedin.com/in/elizabeth-tozlian-ireland" target="_blank">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/elizabeth-tozlian-ireland" target="_blank" rel="noreferrer">LinkedIn</a>
                     </li>
                 </ul>
             </div>

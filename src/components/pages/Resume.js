@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div>
       <h1>🌟 Feast Your Eyes Upon the Last 10 Years of My Life: 🌟</h1>
-      <h3><a href="https://github.com/liztozireland/react-portfolio/raw/main/src/images/IrelandElizabethResume2020.pdf" target="_blank">Or Click Here to Download</a></h3>
+      <h3><a href="https://github.com/liztozireland/react-portfolio/raw/main/src/images/IrelandElizabethResume2020.pdf" target="_blank" rel="noreferrer">Or Click Here to Download</a></h3>
       <h4>🦝🦝🦝</h4>
       <h4>Service Champions</h4>
       <p><strong>Digital Content Manager</strong></p>
