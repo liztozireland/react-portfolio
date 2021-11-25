@@ -11,7 +11,7 @@ export default function Portfolio() {
   const project = [
     {
       image: Pints,
-      altText="Preview image of the app Pints & Pixels.", 
+      altText:"Preview image of the app Pints & Pixels.", 
       liveLink: "https://mapono.github.io/Project_1/",
       text: "Find Pixels & Pints here:",
       gitHubLink: "https://github.com/Mapono/Project_1",
@@ -19,7 +19,7 @@ export default function Portfolio() {
     },
     {
       image: HomeDB,
-      altText="Homepage for the HomeInventory_DB app.", 
+      altText:"Homepage for the HomeInventory_DB app.", 
       liveLink: "https://powerful-dawn-85424.herokuapp.com/",
       text: "Find HomeInventory_DB here:",
       gitHubLink: "https://github.com/ljbrewer/HomeInventory",
@@ -27,7 +27,7 @@ export default function Portfolio() {
     },
     {
       image: JSQuiz,
-      altText="A rocket ship pointing you to a JavaScript quiz.", 
+      altText:"A rocket ship pointing you to a JavaScript quiz.", 
       liveLink: "https://liztozireland.github.io/Javascript-Quiz/",
       text: "Find Super Rad Javascript Quiz here:",
       gitHubLink: "https://github.com/liztozireland/Javascript-Quiz",
@@ -35,7 +35,7 @@ export default function Portfolio() {
     },
     {
       image: WeatherDB,
-      altText="Click the image to find a weather app.", 
+      altText:"Click the image to find a weather app.", 
       liveLink: "https://liztozireland.github.io/WeatherDashboard/",
       text: "Find New Wave Weather Dashboard here:",
       gitHubLink: "https://github.com/liztozireland/WeatherDashboard",
@@ -43,7 +43,7 @@ export default function Portfolio() {
     },
     {
       image: DayPlan,
-      altText="Image of a day planner. Click the image to view.", 
+      altText:"Image of a day planner. Click the image to view.", 
       liveLink: "https://liztozireland.github.io/WorkPlanner/",
       text: "Find a Helpful Day Planner here:",
       gitHubLink: "https://github.com/liztozireland/WorkPlanner",
@@ -51,7 +51,7 @@ export default function Portfolio() {
     },
     {
       image: RoadTrip,
-      altText="Coming Soon: An app that helps you plan a road trip.", 
+      altText:"Coming Soon: An app that helps you plan a road trip.", 
       liveLink: "https://github.com/ljbrewer/AWheelGoodTime",
       text: "Coming Soon: Wheel Good Time: a Road Trip Planner",
     }
